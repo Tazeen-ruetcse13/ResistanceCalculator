@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DocumentActivity" >
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background2" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+   		 	<TextView
+		        android:id="@+id/textView1"
+    		    android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:textSize="16sp"
+        		android:textColor="@android:color/white"
+        		android:text="A resistor is a perhaps the most common building block used in circuits. Resistors come in many shapes and sizes this tool is used to decode information for color banded axial lead resistors.\n
+In a Resistor-\n
+Band 1 – First significant digit.\n
+Band 2 – Second significant digit\n
+Band 3 – Multiplier\n
+Band 4 – Tolerance\n
+Resistance Value\n
+The first 4 bands make up the resistance nominal value. The first 2 bands make up the significant digits where:\n
+black – 0\n
+brown – 1\n
+red – 2\n
+orange – 3\n
+yellow – 4\n
+green – 5\n
+blue – 6\n
+violet – 7\n
+grey – 8\n
+white – 9\n
+The 3rd band or multiplier band is color coded as follows: \n
+black – x1\n
+brown – x10\n
+red – x100\n
+orange – x1K\n
+yellow – x10K\n
+green – x100K\n
+blue – x1M\n
+violet – x10M\n
+grey – x100M\n
+white – x1G\n
+gold – .1\n
+silver – .01\n
+An example of a resistance value is: \n
+band 1 = orange = 3, \n
+band 2 = yellow = 4, \n
+band 3 = blue = 1M\n
+value = 34*1M = 34 Mohm\n
+Resistance Tolerance\n
+The fourth band is the tolerance and represents the worst case variation one might expect from the nominal value. The color code for tolerance is as follows: \n
+red – 2%\n
+gold – 5%\n
+silver – 10%\n
+No color – 20% \n
+An example calculating the range of a resistor value is: \n
+If the nominal value was 34 Ohm and the 4th band of the resistor was gold (5%) the value range would be nominal +/- 5% = 32.3 to 35.7
+
+        		"
+        		android:textAppearance="?android:attr/textAppearanceMedium" />
+   		 
+   		 </LinearLayout>
+   		 
+    </ScrollView>
+    
+</RelativeLayout>

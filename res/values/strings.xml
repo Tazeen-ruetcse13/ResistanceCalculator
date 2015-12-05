@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Resistance Calculator</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_first_band">FirstBandActivity</string>
+    <string name="title_activity_second_band">SecondBandActivity</string>
+    <string name="title_activity_third_band">ThirdBandActivity</string>
+    <string name="title_activity_fourth_band">FourthBandActivity</string>
+    <string name="title_activity_final">FinalActivity</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="title_activity_document">DocumentActivity</string>
+
+</resources>

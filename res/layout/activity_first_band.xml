@@ -1,0 +1,141 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstBandActivity" >
+    
+    <ScrollView 
+   		android:layout_width="wrap_content" 
+   		android:layout_height="fill_parent"
+   		android:background="@drawable/background2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:gravity="center">
+        
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:id="@+id/firstBandTextView"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:text="First Band" 
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+        
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="12dp" />
+
+        <Button
+            android:id="@+id/blackButton1"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:background="@drawable/blackbutton_round" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="05dp" />
+        
+        <Button
+            android:id="@+id/brownButton1"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:background="@drawable/brownbutton_round" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="05dp" />
+        
+        <Button
+            android:id="@+id/redButton1"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:background="@drawable/redbutton_round" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="05dp" />
+        
+        <Button
+            android:id="@+id/orangeButton1"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:background="@drawable/orangebutton_round" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="05dp" />
+        
+        <Button
+            android:id="@+id/yellowButton1"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:background="@drawable/yellowbutton_round" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="05dp" />
+        
+        <Button
+            android:id="@+id/greenButton1"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:background="@drawable/greenbutton_round" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="05dp" />
+        
+        <Button
+            android:id="@+id/blueButton1"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bluebutton_round" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="05dp" />
+        
+        <Button
+            android:id="@+id/violetButton1"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:background="@drawable/violetbutton_round" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="05dp" />
+        
+        <Button
+            android:id="@+id/grayButton1"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:background="@drawable/graybutton_round" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="05dp" />
+        
+        <Button
+            android:id="@+id/whiteButton1"
+            android:layout_width="110dp"
+            android:layout_height="30dp"
+            android:background="@drawable/whitebutton_round" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="05dp" />
+
+        
+
+    </LinearLayout>
+    
+    </ScrollView>
+
+</RelativeLayout>

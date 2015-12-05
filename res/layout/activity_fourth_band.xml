@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FourthBandActivity" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:gravity="center"
+        android:background="@drawable/background2">
+    
+
+        <TextView
+            android:id="@+id/fourthBandTextView"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:text="Fourth Band" 
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+        
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="12dp" />
+
+        <Button
+            android:id="@+id/redButton4"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:background="@drawable/redbutton_round" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="05dp" />
+        
+        <Button
+            android:id="@+id/goldButton4"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:background="@drawable/goldenbutton_round" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="05dp" />
+        
+        <Button
+            android:id="@+id/silverButton4"
+            android:layout_width="175dp"
+            android:layout_height="43dp"
+            android:background="@drawable/silverbutton_round" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="05dp" />
+        
+        <Button
+            android:id="@+id/noColorButton"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:background="@drawable/blackbutton_round"
+            android:text="NO COLOR"
+            android:textColor="@android:color/white" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="05dp" />
+        
+        </LinearLayout>
+
+</RelativeLayout>
